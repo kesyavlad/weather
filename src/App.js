@@ -10,7 +10,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Header />}>
-          <Route index element={<SearchWeather />} />
+          <Route path="weather" element={<SearchWeather />} />
           <Route path="search" element={<SearchWeather />} />
           <Route path="favorite" element={<Favorite />} />
           <Route path="*" element={<Error />} />
